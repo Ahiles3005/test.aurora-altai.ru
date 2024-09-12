@@ -325,5 +325,3 @@ if (!empty($authorId)) {
 </script>
 
 
-<?/**?>
-<pre><?print_r($arResult)?></pre>
