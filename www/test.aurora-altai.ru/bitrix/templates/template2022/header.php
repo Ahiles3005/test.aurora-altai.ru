@@ -27,7 +27,7 @@ if(CSite::InDir("/doctors/"))								$SETTINGS['LEFT_MENU'] = true;
 //if(strpos($APPLICATION->GetCurPage(),"/about/")!==false)	$SETTINGS['NEED_ASIDE_MENU'] = true;
 //if(strpos($APPLICATION->GetCurPage(),"/therapy/")!==false)	$SETTINGS['NEED_TOP_MENU'] = true;
 
-if (stripos($APPLICATION->GetCurUri(), yd_ad_id)) {
+if (stripos($APPLICATION->GetCurUri(), 'yd_ad_id')) {
 	header("HTTP/1.1 301 Moved Permanently");
 	header('Location: /404.php');
 	die();
