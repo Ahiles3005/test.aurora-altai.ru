@@ -72,19 +72,4 @@ $this->setFrameMode(true);
 <?endif;?>
 </div>
 
-<?/*
-<script>
-$(document).ready(function() {
-	$('.open-popup').click(function(){
-		bootbox.alert({
-			message: "Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! Test large alert! ",
-			size: 'large'
-		});
-	});
 
-});
-</script>
-*/?>
-
-<?/*
-<pre><?print_r($arResult["ITEMS"])?></pre>
