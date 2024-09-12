@@ -45,6 +45,3 @@ $this->setFrameMode(true);
 	<!-- div class="mt-2"><a href="<?=$arResult['LIST_PAGE_URL']?>">Перейти в раздел "Ресторан"</a></div -->
 </section>
 
-
-<?/**?>
-<pre><?print_r($arResult)?></pre>
