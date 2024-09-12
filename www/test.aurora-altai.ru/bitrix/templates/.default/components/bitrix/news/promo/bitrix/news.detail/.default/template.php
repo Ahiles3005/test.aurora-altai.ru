@@ -89,6 +89,3 @@ $this->setFrameMode(true);
 	<?/**/?>
 
 </div>
-
-<?/**?>
-<pre><?print_r($arResult)?></pre>
