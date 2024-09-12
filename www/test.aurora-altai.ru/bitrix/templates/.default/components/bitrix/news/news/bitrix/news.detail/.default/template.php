@@ -115,6 +115,3 @@ $this->setFrameMode(true);
 		</div> 
 	</section>
 </div>
-
-<?/**?>
-<pre><?print_r($arResult)?></pre>
