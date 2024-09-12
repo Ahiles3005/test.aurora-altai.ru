@@ -13,7 +13,7 @@
 $this->setFrameMode(true);
 ?>
 <div class="container">
-	<?if(count($arResult["DISPLAY_PROPERTIES"]['PHOTOS']['FILE_VALUE'])){?>
+	<?if(count($arResult["DISPLAY_PROPERTIES"]['PHOTOS']['FILE_VALUE'] ?? [])){?>
 <?php
 $article = CIBlockElement::GetByID($arResult["ID"])->GetNextElement();
 $creationDate = $article->GetFields()["DATE_CREATE"];
