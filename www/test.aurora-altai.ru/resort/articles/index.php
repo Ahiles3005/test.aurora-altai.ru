@@ -126,7 +126,7 @@ $APPLICATION->SetTitle("Title");
 			0 => "",
 			1 => "",
 		),
-		"RESULT_ID" => $_REQUEST[RESULT_ID],	// ID результата
+		"RESULT_ID" => $_REQUEST['RESULT_ID'],	// ID результата
 		"SEF_FOLDER" => "/resort/articles/",	// Каталог ЧПУ (относительно корня сайта)
 		"SEF_MODE" => "Y",	// Включить поддержку ЧПУ
 		"SHOW_ADDITIONAL" => "N",	// Показать дополнительные поля веб-формы
