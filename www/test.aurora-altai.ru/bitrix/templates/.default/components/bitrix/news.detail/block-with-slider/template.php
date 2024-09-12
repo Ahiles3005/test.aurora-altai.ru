@@ -58,7 +58,7 @@ $this->setFrameMode(true);
 <div class="my-4">
 		<?=$arResult["PREVIEW_TEXT"]?>
 
-		<?if(count($arResult['PROPERTIES']['LINKS']['VALUE'])){?>
+		<?if(is_array($arResult['PROPERTIES']['LINKS']['VALUE']) && count($arResult['PROPERTIES']['LINKS']['VALUE'])){?>
 			<div class="treatment-btn mt-3">
 				<?for($i=0;$i<count($arResult['PROPERTIES']['LINKS']['VALUE']);$i++){
 					if(trim($arResult['PROPERTIES']['LINKS']['DESCRIPTION'][$i])){?>
